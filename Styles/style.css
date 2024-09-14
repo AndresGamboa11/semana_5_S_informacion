@@ -59,9 +59,7 @@ h2{
     color: var(--color-primario);
     
 }
-a{
-    padding-top: 30px;
-}
+
 img{
     border-radius: 45px 0px 45px  20px;
 }
@@ -70,9 +68,10 @@ p{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 a{
+    padding-top: 30px;
     text-decoration: none;
     font-size: 20px;
-    color: blue;
+    color: rgb(54, 144, 204);
 }
 footer{
     width: 100%;
