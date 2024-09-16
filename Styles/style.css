@@ -34,6 +34,15 @@ h1{
     color: var(--color-secundario);
     text-align: center;
 }
+hr{
+    width: 50%;
+    height: 5px;
+    background-color: var(--color-secundario);
+    border: none;
+    margin: 0 auto;
+
+
+}
 main{
     display: flex;
     background-color: var(--color-terciario);
@@ -42,17 +51,47 @@ main{
     margin: 10px;
 
 }
-section{
+.caja1{
+
+    background-color: rgba(133, 126, 126, 0.764);
+    padding-right: 60px;
+    margin-right: 0px;
+    margin-left: 200px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-right: 80px;
+
+}
+.caja2{
+    background-color: rgba(133, 126, 126, 0.764);
+    padding-right: 60px;
+    margin-right: 6px;
+    margin-left: 0px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 60px;
+    border-right: 80px;
+
+}
+div{
 
     display: flex;
     flex-direction: column;
     padding: 20px;
-    width: 23%;
+    width: 50%;
     height: 58vh;
-    background-color: var(--color-secundario);
+    background-color: grey;
     border: #e5e5e5 solid;
     margin: 20px auto;
 }
+
 h2{
     padding-bottom: 30px;
     padding-top: 30px;
